@@ -49,7 +49,7 @@
 
 ### 1. Topics, See Also
 
-![image-20201222221651068](/Users/daeunkim/Documents/GitHub/ADD-KR/Resource/example1.png)
+![figure1](https://github.com/DAEUN28/ADD-KR/blob/main/Resource/documentTemplate-figure1.png)
 
 ## Topics
 
