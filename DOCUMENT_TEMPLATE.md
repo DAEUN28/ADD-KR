@@ -41,7 +41,9 @@ description: An object that manages image-based content and allows you to perfor
 
 ## Info
 > **Type**: `Class`
+>
 > **최근 수정일**: `2020-12-23`
+>
 > [원문 링크](https://developer.apple.com/documentation/quartzcore/calayer)
 
 **Availability**
