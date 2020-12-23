@@ -10,47 +10,58 @@
 - Resource(image, video 등)가 존재할 경우, 문서와 같은 경로의 resource 디렉토리에 추가해 사용해주세요.
   - 리소스명: 제목(camel case)-(Figure+리소스번호)
 
+- Type이 없다면 Collection으로 기재해주세요.
 - H1: 제목
 - H2: On This Page에 기재된 목차
 - H1, H2는 번역하지 않고 영어 그대로 기재해주세요.
 - 구분선(---)을 그대로 사용해주세요.
 - 문서 번역도중 링킹이 필요한 부분이 있다면 gitbook에서 해당 문서가 존재하는지 검색 후 다음과 같이 기재해주세요.
-  - 문서 O: [UIKit](gitbook 문서 링크)
+  - 문서 O: [UIKit](Document/App Frameworks/UIKit/README.md)
   - 문서 X: [UIKit]()
 - 번역이 애매하거나 통용적으로 사용되는 단어의 경우는 번역하지 말아주세요.
   - 예시: github - 깃허브
 ```
 
-**최근 수정일**: `yyyy-mm-dd`
-
-[원문 링크]()
-
-**Availability**
-
-- iOS 14.0+
-- macOS 11.0+
-- watchOS 7.0+
-
-
-
-#### 타입(기재되어 있지 않을 경우 Collection)
-
-# 제목 
-
-**설명**
-
----
-
-
-
 
 
 # 형식 예제
 
-### 1. Topics, See Also
+### 1. 기본
 
-![figure1](https://github.com/DAEUN28/ADD-KR/blob/main/Resource/documentTemplate-figure1.png)
+![](https://github.com/DAEUN28/ADD-KR/blob/main/Resource/documentTemplate-figure1.png)
 
+```markdown
+---
+description: An object that manages image-based content and allows you to perform animations on that content.
+---
+
+# CALayer
+
+## Info
+> **Type**: `Class`
+> **최근 수정일**: `2020-12-23`
+> [원문 링크](https://developer.apple.com/documentation/quartzcore/calayer)
+
+**Availability**
+
+- iOS 2.0+
+- macOS 10.5+
+- Mac Catalyst 13.0+
+- tvOS 9.0+
+
+**Framework**
+
+- Core Animation
+
+```
+
+
+
+### 2. Topics, See Also
+
+![figure1](https://github.com/DAEUN28/ADD-KR/blob/main/Resource/documentTemplate-figure2.png)
+
+```markdown
 ## Topics
 
 ### Essentials
@@ -80,3 +91,5 @@
 - `protocol` [UIAccessibilityRenderingContent]()
 
   Methods to implement on an object that represents ~
+```
+
