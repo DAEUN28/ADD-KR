@@ -6,7 +6,9 @@ description: 애플 실리콘이 있는 맥용 소프트웨어를 만드는데 �
 
 ## Info
 > **Type**: `Collection`
+>
 > **최근 수정일**: `2020-12-23`
+>
 > [원문 링크](https://developer.apple.com/documentation/apple_silicon)
 
 ---
