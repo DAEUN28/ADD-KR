@@ -41,7 +41,7 @@
 2. 작성방법, Template을 준수하지 않을 경우, 수정요청되고, 수정사항이 반영되기 전까지 병합될 수 없습니다.
 3. 애플 개발자 문서를 기반으로 하되, 애플 개발자 문서에 명시되어 있지 않은 부분(다음 사진의 빨간표시와 같은`분류`)은 Xcode의 Developer Documentation을 기반으로 합니다.
 
-![figure1](https://github.com/DAEUN28/ADD-KR/blob/main/Resource/readme-figure1.png)
+![figure1](Resource/readme-figure1.png)
 
 
 
