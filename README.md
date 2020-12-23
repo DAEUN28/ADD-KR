@@ -16,13 +16,12 @@
 
 1. 번역을 시작하기 전에 [Issue template](https://github.com/DAEUN28/ADD-KR/blob/main/.github/ISSUE_TEMPLATE/issue-template.md)에 맞춰 **반드시** 이슈를 등록합니다.
 2. `Issue Type/생성한 이슈의 번호 - 이슈 제목`으로 브랜치를 생성합니다.
+   - 카멜 케이스를 준수해주세요!
 3. 생성한 브랜치에서 [Documentation template](https://github.com/DAEUN28/ADD-KR/blob/main/DOCUMENT_TEMPLATE.md)에 맞춰 문서를 작성하고 파일 단위로 커밋합니다.
    - commit message는 `IssueType 파일명 ` 으로 간단명료하게 명시해주세요.
    - commit description에 세부사항을 명시해주세요 :)
 4. [PR template](https://github.com/DAEUN28/ADD-KR/blob/main/.github/PULL_REQUEST_TEMPLATE.md)에 맞춰 PR을 생성합니다.
-5. 검수 후 문제가 없다면 main 브랜치로 병합되고, issue 또한 close 됩니다.
-
-
+5. 검수 후 문제가 없다면 SUMMARY.md에 문서를 수정하는 작업을 거쳐 main 브랜치로 병합되고, issue 또한 close 됩니다.
 
 > 이슈는 다음 Issue Type 단위에 맞게 생성합니다. 두 개 이상의 Issue Type을 가진 Issue는 생성될 수 없습니다.
 
