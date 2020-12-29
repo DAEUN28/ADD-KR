@@ -15,7 +15,7 @@
 > 귀찮더라도 꼭 작성방법과 template을 따라주세요❤️
 
 1. 번역을 시작하기 전에 [Issue template](https://github.com/DAEUN28/ADD-KR/blob/main/.github/ISSUE_TEMPLATE/issue-template.md)에 맞춰 **반드시** 이슈를 등록합니다.
-2. `Issue Type/생성한 이슈의 번호 - 이슈 제목`으로 브랜치를 생성합니다.
+2. `Issue Type/생성한 이슈의 번호 - 문서명(문서가 하나 이상이라면 최상위 문서명)`으로 브랜치를 생성합니다.
    - 카멜 케이스를 준수해주세요!
 3. 생성한 브랜치에서 [Documentation template](https://github.com/DAEUN28/ADD-KR/blob/main/DOCUMENT_TEMPLATE.md)에 맞춰 문서를 작성하고 파일 단위로 커밋합니다.
    - commit message는 `IssueType 파일명 ` 으로 간단명료하게 명시해주세요.
