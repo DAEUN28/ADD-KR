@@ -70,29 +70,29 @@ description: An object that manages image-based content and allows you to perfor
 
 ### Essentials
 
-- UIAccessiblity
+- **UIAccessiblity**
 
   A set of methods that provide accessibility ~
 
-- UIAccessbilityContainer
+- **UIAccessbilityContainer**
 
   Provide a set of methods ~ 
 
-- Supporting VoiceOver in Your App
+- **Supporting VoiceOver in Your App**
 
   Learn how to make your iOS app more acessible to ~
 
 ### Behaviors
 
-- UIAccessibilityFocus
+- **UIAccessibilityFocus**
 
   An informal protocol that ~
 
-- `protocol` UIAccessibiltyIdentification
+- protocol **UIAccessibiltyIdentification**
 
   Methods that associate a unique identifier with elements ~
 
-- `protocol` UIAccessibilityRenderingContent
+- protocol **UIAccessibilityRenderingContent**
 
   Methods to implement on an object that represents ~
 ```
