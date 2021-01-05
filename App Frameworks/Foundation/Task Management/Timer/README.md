@@ -73,35 +73,35 @@ Timer를 상속하지 마세요.
 
 ### 타이머 생성
 
-- class func scheduledTimer(withTimeInterval: TimeInterval, repeats: Bool, block: (Timer) -> Void) -> Timer
+- class func **scheduledTimer**(**withTimeInterval**: TimeInterval, **repeats**: Bool, **block**: (Timer) -> Void) -> Timer
 
   타이머를 생성한 후 현재 런 루프의 default 모드에 스케줄합니다.
 
-- class func scheduledTimer(timeInterval: TimeInterval, target: Any, selector: Selector, userInfo: Any?, repeats: Bool) -> Timer
+- class func **scheduledTimer**(**timeInterval**: TimeInterval, **target**: Any, **selector**: Selector, **userInfo**: Any?, **repeats**: Bool) -> Timer
 
   타이머를 생성한 후 현재 런 루프의 default 모드에 스케줄합니다.
 
-- class func scheduledTimer(timeInterval: TimeInterval, invocation: NSInvocation, repeats: Bool) -> Timer
+- class func **scheduledTimer**(**timeInterval**: TimeInterval, **invocation**: NSInvocation, **repeats**: Bool) -> Timer
 
   새로운 타이머를 생성한 후 현재 런 루프의 default 모드에 스케줄합니다.
 
-- init(timeInterval: TimeInterval, repeats: Bool, block: (Timer) -> Void)
+- **init**(**timeInterval**: TimeInterval, **repeats**: Bool, **block**: (Timer) -> Void)
 
   시간 간격과 block으로 타이머 객체를 초기화합니다.
 
-- init(timeInterval: TimeInterval, target: Any, selector: Selector, userInfo: Any?, repeats: Bool)
+- **init**(**timeInterval**: TimeInterval, **target**: Any, **selector**: Selector, **userInfo**: Any?, **repeats**: Bool)
 
   객체와 셀렉터로 타이머 객체를 초기화합니다.
 
-- init(timeInterval: TimeInterval, invocation: NSInvocation, repeats: Bool)
+- **init**(**timeInterval**: TimeInterval, **invocation**: NSInvocation, **repeats**: Bool)
 
   invocation 객체로 타이머 객체를 초기화합니다.
 
-- init(fire: Date, interval: TimeInterval, repeats: Bool, block: (Timer) -> Void)
+- **init**(**fire**: Date, **interval**: TimeInterval, **repeats**: Bool, **block**: (Timer) -> Void)
 
   날짜와 시간 간격, block으로 타이머 객체를 초기화합니다.
 
-- init(fireAt: Date, interval: TimeInterval, target: Any, selector: Selector, userInfo: Any?, repeats: Bool)
+- **init**(**fireAt**: Date, **interval**: TimeInterval, **target**: Any, **selector**: Selector, **userInfo**: Any?, **repeats**: Bool)
 
   객체와 셀렉터로 타이머 객체를 초기화합니다.
 
@@ -109,7 +109,7 @@ Timer를 상속하지 마세요.
 
 ### 타이머 실행
 
-- func fire()
+- func **fire**()
 
   타이머의 메시지를 taget으로 보냅니다.
 
@@ -117,7 +117,7 @@ Timer를 상속하지 마세요.
 
 ### 타이머 정지
 
-- func invalidate()
+- func **invalidate**()
 
   Stops the timer from ever firing again and requests its removal from its run loop.
 
@@ -127,19 +127,19 @@ Timer를 상속하지 마세요.
 
 ### 타이머 정보 검색
 
-- var isValid: Bool
+- var **isValid**: Bool
 
   타이머의 유효 여부를 나타내는 불 값
 
-- var fireDate: Date
+- var **fireDate**: Date
 
   타이머가 작동되는 날짜
 
-- var timeInterval: TimeInterval
+- var **timeInterval**: TimeInterval
 
   타이머의 시간 간격(초)
 
-- var userInfo: Any?
+- var **userInfo**: Any?
 
   userInfo 객체의 리시버
 
@@ -147,7 +147,7 @@ Timer를 상속하지 마세요.
 
 ### 허용 오차 설정
 
-- var tolerance: TimeInterval
+- var **tolerance**: TimeInterval
 
   타이머가 작동될 수 있는 스케줄된 작동 날짜 이후의 시간
 
@@ -155,11 +155,11 @@ Timer를 상속하지 마세요.
 
 ### Combine Publisher로 메시지 실행
 
-- static func publish(every: TimeInterval, tolerance: TimeInterval?, on: RunLoop, in: RunLoop.Mode, options: RunLoop.SchedulerOptions?) -> Timer.TimerPublisher
+- static func **publish**(**every**: TimeInterval, **tolerance**: TimeInterval?, **on**: RunLoop, **in**: RunLoop.Mode, **options**: RunLoop.SchedulerOptions?) -> Timer.TimerPublisher
 
   지정된 간격에 따라 현재 날짜를 반복적으로 방출하는 publisher를 반환합니다.
 
-- class Timer.TimerPublisher
+- class **Timer.TimerPublisher**
 
   지정된 간격으로 현재 날짜를 반복적으로 방출하는 publisher
 

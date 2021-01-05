@@ -19,11 +19,11 @@ description: host 운영 체제 및 기타 프로세스와 앱의 상호작용�
 
 ### 런루프 스케줄링
 
-- class **RunLoop**
+- [class **RunLoop**](RunLoop/README.md)
 
   input source를 관리하는 객체에 대한 인터페이스
 
-- [class **Timer**](Task Management/Timer/README.md)
+- [class **Timer**](../Task Management/Timer/README.md)
 
   특정 시간 간격이 경과한 후 실행되어 지정된 메시지를 target 객체로 보내는 타이머
 
@@ -95,7 +95,7 @@ description: host 운영 체제 및 기타 프로세스와 앱의 상호작용�
 
   스크립트를 실행하는 객체
 
-- class NSUserAppleScriptTask
+- class **NSUserAppleScriptTask**
 
   AppleScript 스크립트를 실행하는 객체
 
