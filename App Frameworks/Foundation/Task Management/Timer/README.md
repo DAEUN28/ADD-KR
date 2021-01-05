@@ -171,6 +171,8 @@ Timer를 상속하지 마세요.
 
 - NSObject
 
+---
+
 ### Conforms To
 
 - CVarArg
