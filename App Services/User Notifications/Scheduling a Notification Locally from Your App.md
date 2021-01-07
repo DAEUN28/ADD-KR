@@ -1,5 +1,5 @@
 ---
-description: 사용자의 주의 끌려면 앱에서 알림을 만들고 예약하세요.
+description: 사용자의 주의를 끌기 위해 앱에서 알림을 만들고 예약하세요.
 ---
 
 # Scheduling a Notification Locally from Your App
