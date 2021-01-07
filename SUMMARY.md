@@ -17,6 +17,11 @@
       - Preparing Your UI to Run in the Background
         - [Extending Your App's Background Execution Time](App Frameworks/UIKit/App and Environment/Scenes/Preparing Your UI to Run in the Background/Extending Your App's Background Execution Time.md)
 
+### App Services
+
+- User Notifications
+  - [Scheduling a Notification Locally from Your App](App Services/User Notifications/Scheduling a Notification Locally from Your App.md)
+
 ### System
 
 - [Apple Silicon](System/Apple Silicon/README.md)
