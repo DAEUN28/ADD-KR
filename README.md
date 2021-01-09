@@ -108,10 +108,15 @@ description: An object that manages image-based content and allows you to perfor
 ![Figure3](Resource/readme-figure3.png)
 
 ```markdown
-{% hint style="danger & warning" %}
-Hello world
+{% hint style="danger" %}
+Warning
+The RunLoop class is generally not considered to be thread-safe and its methods should only be ~
 {% endhint %}
 
-hint style: info, success
+hint style: info, success, danger, warning
 ```
 
+{% hint style="danger" %}
+**Warning**
+The RunLoop class is generally not considered to be thread-safe and its methods should only be ~
+{% endhint %}
