@@ -1,58 +1,117 @@
-# ADD-KR
-🍎 Apple Developer Document 한국어 번역 프로젝트입니다. [Apple Developer 홈페이지](https://developer.apple.com/documentation/technologies)를 기반으로 번역합니다. [Github](https://github.com/DAEUN28/ADD-KR)에서는 문서 작업만 진행하고 [Gitbook](https://acone1128.gitbook.io/add/)에서 문서를 편리하게 확인할 수 있습니다.
 
-> 질문, 요청사항이 있다면 언제든지 acone1128@gmail.com으로 연락해주세요!
+
+# ADD-KR (Document)
+
+🍎 Apple Developer Document 한국어 번역 프로젝트입니다. [Apple Developer Document 링크](https://developer.apple.com/documentation/technologies)를 기반으로 번역합니다. [Github](https://github.com/DAEUN28/ADD-KR)에서는 문서 작업만 진행하고 [Gitbook](https://acone1128.gitbook.io/add/)에서 문서를 편리하게 확인할 수 있습니다.
+
+# 작성 전 꼭 확인해주세요!
+
+1. 문서는 기본적으로 애플 개발자 공식 문서를 기반으로 합니다.
+2. 모든 문서와 파일명의 띄어쓰기를 하이픈(-)으로 대치해주세요.
+3. 반드시 올바른 경로에 문서를 저장해주세요.
+   - 상위 디렉토리가 존재하지 않을 경우 생성해주세요.
+   - 디렉토리명에 해당하는 문서일 경우 파일명을 README로 생성해주세요.
+     - 예시: UIKit의 문서일 경우, UIKit 디렉토리 생성 후, 해당 디렉토리의 README로 md파일 생성
+4. Resource(image, video 등)가 존재할 경우, 문서와 같은 경로의 resource 디렉토리에 추가해 사용해주세요.
+  - 리소스명: 제목(카멜케이스)-(figure+리소스번호)
+5. 원문 링크를 제외한 모든 링크는 상대경로로 지정해 사용해주세요.
+  - 예시: `![figure1](Resource/documentTemplate-figure2.png)`, `[UIKit](Document/App Frameworks/UIKit/README.md)`
+6. Type이 없다면 Collection으로 기재해주세요.
+7. 최대한 애플 개발자 공식 문서와 같은 형식으로 작성해주세요.
+   - H1: 제목
+   - H2: On This Page에 기재된 목차
+   - H1, H2는 번역하지 않고 영어 그대로 기재해주세요.
+   - 구분선(---)을 그대로 사용해주세요.
+8. 문서 번역도중 링킹이 필요한 부분이 있다면 gitbook에서 해당 문서가 존재하는지 검색 후 다음과 같이 기재해주세요.
+  - 문서 O: [UIKit](Document/App Frameworks/UIKit/README.md)
+  - 문서 X: UIKit
+9. 번역이 애매하거나 통용적으로 사용되는 단어, 문서의 제목, 메서드 등은 번역하지 말아주세요.
+  - 예시: github - 깃허브, low-level, Building a Univeral macOS Binary
+
+
+
+# 형식 예제
+
+## 1. 기본
+
+![Figure1](Resource/readme-figure1.png)
+
+```markdown
+---
+description: An object that manages image-based content and allows you to perform animations on that content.
+---
+
+# CALayer
+
+## Info
+> **Type**: `Class`
 >
-> 영어 실력이 부족합니다😂 오역, 오타 지적 언제나 환영합니다 :) 
-
-
-
-## 작성방법
-
-> 작성방법, Template을 준수하지 않을 경우, 수정요청되고, 수정사항이 반영되기 전까지 병합될 수 없습니다.
-> **문서 단위**: 애플 개발자 문서의 링크와 1:1로 매칭될 수 있습니다. 하나의 문서 == 하나의 파일
+> **최근 수정일**: `2020-12-23`
 >
-> 귀찮더라도 꼭 작성방법과 template을 따라주세요❤️
+> [원문 링크](https://developer.apple.com/documentation/quartzcore/calayer)
 
-1. 번역을 시작하기 전에 [Issue template](https://github.com/DAEUN28/ADD-KR/blob/main/.github/ISSUE_TEMPLATE/issue-template.md)에 맞춰 **반드시** 이슈를 등록합니다.
-2. `Issue Type/생성한 이슈의 번호 - 문서명(문서가 하나 이상이라면 최상위 문서명)`으로 브랜치를 생성합니다.
-   - 카멜 케이스를 준수해주세요!
-3. 생성한 브랜치에서 [Documentation template](https://github.com/DAEUN28/ADD-KR/blob/main/DOCUMENT_TEMPLATE.md)에 맞춰 문서를 작성하고 파일 단위로 커밋합니다.
-   - commit message는 `IssueType 파일명 ` 으로 간단명료하게 명시해주세요.
-   - commit description에 세부사항을 명시해주세요 :)
-4. [PR template](https://github.com/DAEUN28/ADD-KR/blob/main/.github/PULL_REQUEST_TEMPLATE.md)에 맞춰 PR을 생성합니다.
-5. 검수 후 문제가 없다면 SUMMARY.md에 문서를 수정하는 작업을 거쳐 main 브랜치로 병합되고, issue 또한 close 됩니다.
+**Availability**
 
-> 이슈는 다음 Issue Type 단위에 맞게 생성합니다. 두 개 이상의 Issue Type을 가진 Issue는 생성될 수 없습니다.
+- iOS 2.0+
+- macOS 10.5+
+- Mac Catalyst 13.0+
+- tvOS 9.0+
 
-### Issue Type
+**Framework**
 
-- Create(기존에 없던 문서 생성)
-- Refactor(오타 수정, 오역 수정)
-- Update(애플 개발자 문서 업데이트에 따른 수정)
-- Delete(애플 개발자 문서 업데이트에 따른 삭제)
-- Notify(오타 제보, 오역 제보 등 직접 작업하지 않을 예정인 이슈)
+- Core Animation
+
+```
 
 
 
-## 규칙
+## 2. Topics, See Also
 
-1. Swift 문서만 번역합니다.
-2. 작성방법, Template을 준수하지 않을 경우, 수정요청되고, 수정사항이 반영되기 전까지 병합될 수 없습니다.
-3. 애플 개발자 문서를 기반으로 하되, 애플 개발자 문서에 명시되어 있지 않은 부분(다음 사진의 빨간표시와 같은`분류`)은 Xcode의 Developer Documentation을 기반으로 합니다.
+![Figure2](Resource/readme-figure2.png)
 
-![figure1](Resource/readme-figure1.png)
+```markdown
+## Topics
+
+### Essentials
+
+- **UIAccessiblity**
+
+  A set of methods that provide accessibility ~
+
+- **UIAccessbilityContainer**
+
+  Provide a set of methods ~ 
+
+- **Supporting VoiceOver in Your App**
+
+  Learn how to make your iOS app more acessible to ~
+
+### Behaviors
+
+- **UIAccessibilityFocus**
+
+  An informal protocol that ~
+
+- protocol **UIAccessibiltyIdentification**
+
+  Methods that associate a unique identifier with elements ~
+
+- protocol **UIAccessibilityRenderingContent**
+
+  Methods to implement on an object that represents ~
+```
 
 
 
-## Reference
+## 3. Hints and Callouts
 
-https://github.com/ESnark/sagwa
+![Figure3](Resource/readme-figure3.png)
 
-https://github.com/tensorflowkorea/tensorflow-kr
+```markdown
+{% hint style="danger & warning" %}
+Hello world
+{% endhint %}
 
+hint style: info, success
+```
 
-
-## Contributor
-
-프로젝트에 함께 해주세요! :)
