@@ -49,6 +49,6 @@ description: 데이터 모델의 변경 사항이 경량 마이그레이션의 �
 
 ### 데이터 마이그레이션
 
-- [Using Lightweight Migration](/Using-Lightweight-Migration.md)
+- [Using Lightweight Migration](../Using-Lightweight-Migration.md)
 
   경량(자동) 마이그레이션을 요청하여 앱의 변경사항에 맞게 데이터 모델을 업데이트합니다.

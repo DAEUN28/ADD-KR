@@ -21,7 +21,7 @@
   - [Choosing Background Strategies for Your App](App-Services/Background-Tasks/Choosing-Background-Strategies-for-Your-App.md)
 - Core Data
   - [Using Lightweight Migration](App-Services/Core-Data/Using-Lightweight-Migration.md)
-  - [Heavyweight Migration](App-Services/Core-Data/Heavyweight-Migration.md)
+  - [Heavyweight Migration](App-Services/Core-Data/Heavyweight-Migration/README.md)
 - User Notifications
   - [Scheduling a Notification Locally from Your App](App-Services/User-Notifications/Scheduling-a-Notification-Locally-from-Your-App.md)
 
