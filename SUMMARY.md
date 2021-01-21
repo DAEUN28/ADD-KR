@@ -22,6 +22,8 @@
 - Core Data
   - [Using Lightweight Migration](App-Services/Core-Data/Using-Lightweight-Migration.md)
   - [Heavyweight Migration](App-Services/Core-Data/Heavyweight-Migration/README.md)
+- StoreKit
+  - [In-App Purchase](App-Services/StoreKit/In-App-Purchase/README.md)
 - User Notifications
   - [Scheduling a Notification Locally from Your App](App-Services/User-Notifications/Scheduling-a-Notification-Locally-from-Your-App.md)
 
