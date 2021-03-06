@@ -29,7 +29,7 @@ UIKit은 기기 설정, 인터페이스 설정 및 사용자 선호도의 조합
 
 ---
 
-- [Managing Your App's Life Cycle](Managing-App-Life-Cycle.md)
+- [Managing Your App's Life Cycle](Managing_App_Life_Cycle.md)
 
   foreground이나 background에 있을 때 시스템 notification에 응답하고, 기타 중요한 시스템 관련 이벤트를 처리하세요.
 
@@ -53,7 +53,7 @@ UIKit은 기기 설정, 인터페이스 설정 및 사용자 선호도의 조합
 
 ---
 
-- [Multitasking on iPad](Multitasking-on-iPad.md)
+- [Multitasking on iPad](Multitasking_on_iPad.md)
 
   멀티태스킹 API를 구현해 앱을 iPadOS와 원활하게 통합하세요.
 

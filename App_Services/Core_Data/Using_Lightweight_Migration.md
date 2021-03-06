@@ -7,7 +7,7 @@ description: 경량(자동) 마이그레이션을 요청하여 앱의 변경사�
 ## Info
 > **Type**: `Article`
 >
-> **최근 수정일**: `2021-03-08`
+> **최근 수정일**: `2021-03-06`
 >
 > [원문 링크](https://developer.apple.com/documentation/coredata/using_lightweight_migration)
 
@@ -80,7 +80,7 @@ do {
 
 ### Data Migration
 
-- [Heavyweight Migration](Heavyweight-Migration.md)
+- [Heavyweight Migration](Heavyweight_Migration.md)
 
   데이터 모델의 변경 사항이 경량 마이그레이션의 역량을 초과하는 드문 경우에 중량(수동) 마이그레이션을 사용합니다.
 

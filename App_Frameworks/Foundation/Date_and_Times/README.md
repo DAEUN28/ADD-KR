@@ -21,7 +21,7 @@ description: 날짜와 시간을 비교하고, 달력 및 시간대 계산을 �
 
 ---
 
-- [`struct Date`](Date/README.md)
+- [`struct Date`](Date.md)
 
   달력 또는 표준 시간대와 관계없는 특정 시점
 
