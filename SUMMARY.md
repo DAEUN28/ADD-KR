@@ -1,6 +1,6 @@
 # Summary
 
-* [ADD_KR](README.md)
+* [ADD-KR](README.md)
 
 ## App Frameworks
 
@@ -17,7 +17,7 @@
     - [Multitasking on iPad](UIKit/App_and_Environment/Multitasking_on_iPad.md)
     - Scenes
       - Preparing Your UI to Run in the Background
-        - [Extending Your App's Background Execution Time](App_and_Environment/Extending_Your_App's_Background_Execution_Time.md)
+        - [Extending Your App's Background Execution Time](UIKit/App_and_Environment/Extending_Your_App's_Background_Execution_Time.md)
   - Animation and Haptics
     - Property Based Animations
       - [UIViewPropertyAnimator](UIKit/Animation_and_Haptics/UIViewPropertyAnimator.md)
