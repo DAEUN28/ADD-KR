@@ -20,10 +20,10 @@
      - H2: On This Page에 기재된 목차
      - H1, H2는 번역하지 않고 영어 그대로 기재해주세요.
      - 구분선(---)을 그대로 사용해주세요.
-  3. 문서 번역도중 링킹이 필요한 부분이 있다면 gitbook에서 해당 문서가 존재하는지 검색 후 다음과 같이 기재해주세요.
+  3. 문서 번역도중 링킹이 필요한 부분이 있다면 gitbook에서 해당 문서가 존재하는지 검색 후 다음과 같이 기재해주세요. 만약 존재하지 않는다면 원문의 링크를 그대로 기재해주세요
 
-  - 문서 O: [UIKit](Document/App Frameworks/UIKit/README.md)
-  - 문서 X: UIKit
+  - 문서 O: \[UIKit](Document/App Frameworks/UIKit/README.md)
+  - 문서 X: \[UIKit](https://developer.apple.com/documentation/uikit)
 
   1. 번역이 애매하거나 통용적으로 사용되는 단어, 문서의 제목, 메서드 등은 번역하지 말아주세요.
 
@@ -75,29 +75,29 @@
   
   ### Essentials
   
-  - **UIAccessiblity**
+  - [UIAccessiblity]()
   
     A set of methods that provide accessibility ~
   
-  - **UIAccessbilityContainer**
+  - [UIAccessbilityContainer]()
   
     Provide a set of methods ~ 
   
-  - **Supporting VoiceOver in Your App**
+  - [Supporting VoiceOver in Your App]()
   
     Learn how to make your iOS app more acessible to ~
   
   ### Behaviors
   
-  - **UIAccessibilityFocus**
+  - [UIAccessibilityFocus]()
   
     An informal protocol that ~
   
-  - protocol **UIAccessibiltyIdentification**
+  - [`protocol UIAccessibiltyIdentification`]()
   
     Methods that associate a unique identifier with elements ~
   
-  - protocol **UIAccessibilityRenderingContent**
+  - [`protocol **UIAccessibilityRenderingContent`]()
   
     Methods to implement on an object that represents ~
   ```
