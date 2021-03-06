@@ -7,7 +7,7 @@ description: 경량(자동) 마이그레이션을 요청하여 앱의 변경사�
 ## Info
 > **Type**: `Article`
 >
-> **최근 수정일**: `2021-01-12`
+> **최근 수정일**: `2021-03-08`
 >
 > [원문 링크](https://developer.apple.com/documentation/coredata/using_lightweight_migration)
 
@@ -23,7 +23,7 @@ Core Data는 일반적으로 경량 마이그레이션이라고 하는 자동 �
 
 ### 추론된 매핑 모델 생성
 
-자동 경량 마이그레이션을 수행하려면, Core Data가 런타임에 원본(source) 및 대상(destination) 관리 객체 모델을 찾을 수 있어야 합니다. Core Data는 Bundle 클래스의 allBundles과 allFrameworks 메서드에서 반환된 번들에서 모델을 찾습니다. 찾은 다음 Core Data는 영구(Persistant) 엔티티 및 속성에 대한 스키마 변경을 분석하고, 추론된 매핑 모델을 생성합니다. 
+자동 경량 마이그레이션을 수행하려면, Core Data가 런타임에 원본(source) 및 대상(destination) 관리 객체 모델을 찾을 수 있어야 합니다. Core Data는 [Bundle](https://developer.apple.com/documentation/foundation/bundle) 클래스의 [allBundles](https://developer.apple.com/documentation/foundation/bundle/1413705-allbundles)과 [allFrameworks](https://developer.apple.com/documentation/foundation/bundle/1408056-allframeworks) 메서드에서 반환된 번들에서 모델을 찾습니다. 찾은 다음 Core Data는 영구(Persistant) 엔티티 및 속성에 대한 스키마 변경을 분석하고, 추론된 매핑 모델을 생성합니다. 
 
 추론된 매핑 모델을 생성하려면 명확한 마이그레이션 패턴에 맞는 변경이 필요합니다. 예를 들어:
 
@@ -54,13 +54,13 @@ Renaming identifier 규범적인(canonical) 이름을 생성합니다. 그러니
 
 ### Core Data가 모델을 추론할 수 있는지 확인
 
-Core Data가 마이그레이션의 작업을 실제로 수행하지 않고도 원본과 대상 모델 사이에서 매핑 모델을 추론할 수 있는지 미리 검증하려는 경우, NSMappingModel의 inferredMappingModel(forSourceModel:destinationModel:) 메서드를 사용할 수 있습니다. Core Data가 추론된 모델을 생성할 수 있다면 이 메서드는 추론된 모델을 번환하고, 생성할 수 없다면 nil을 반환합니다.
+Core Data가 마이그레이션의 작업을 실제로 수행하지 않고도 원본과 대상 모델 사이에서 매핑 모델을 추론할 수 있는지 미리 검증하려는 경우, [NSMappingModel](https://developer.apple.com/documentation/coredata/nsmappingmodel)의 [inferredMappingModel(forSourceModel:destinationModel:)](https://developer.apple.com/documentation/coredata/nsmappingmodel/1506468-inferredmappingmodel) 메서드를 사용할 수 있습니다. Core Data가 추론된 모델을 생성할 수 있다면 이 메서드는 추론된 모델을 번환하고, 생성할 수 없다면 nil을 반환합니다.
 
 만약 데이터 변경 사항이 자동 마이그레이션의 역량을 초과하는 경우, 중량(heavyweight) 마이그레이션을 수행할 수 있습니다(수동 마이그레이션이라고도 합니다).
 
 ### 경량 마이그레이션 요청
 
-addPersistentStore(ofType:configurationName:at:options:)에 전달하는 options 딕셔너리를 사용해 자동 경량 마이그레이션을 요청할 수 있습니다. NSMigratePersistentStoresAutomaticallyOption 키와 NSInferMappingModelAutomaticallyOption 키에 해당하는 값을 true로 설정합니다:
+[addPersistentStore(ofType:configurationName:at:options:)](https://developer.apple.com/documentation/coredata/nspersistentstorecoordinator/1468860-addpersistentstore)에 전달하는 options 딕셔너리를 사용해 자동 경량 마이그레이션을 요청할 수 있습니다. [NSMigratePersistentStoresAutomaticallyOption](https://developer.apple.com/documentation/coredata/nsmigratepersistentstoresautomaticallyoption) 키와 [NSInferMappingModelAutomaticallyOption](https://developer.apple.com/documentation/coredata/nsinfermappingmodelautomaticallyoption) 키에 해당하는 값을 true로 설정합니다:
 
 ```swift
 let psc = NSPersistentStoreCoordinator(managedObjectModel: mom)

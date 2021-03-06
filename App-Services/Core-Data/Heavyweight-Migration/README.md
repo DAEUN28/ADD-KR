@@ -7,7 +7,7 @@ description: 데이터 모델의 변경 사항이 경량 마이그레이션의 �
 ## Info
 > **Type**: `Collection`
 >
-> **최근 수정일**: `2021-01-13`
+> **최근 수정일**: `2021-03-06`
 >
 > [원문 링크](https://developer.apple.com/documentation/coredata/heavyweight_migration)
 
@@ -21,27 +21,27 @@ description: 데이터 모델의 변경 사항이 경량 마이그레이션의 �
 
 ---
 
-- class NSMigrationManager
+- [`class NSMigrationManager`](https://developer.apple.com/documentation/coredata/nsmigrationmanager)
 
   지정된 매핑 모델을 사용해 한 영구 저장소에서 다른 저장소로 데이터를 마이그레이션하는 마이그레이션 매니저 인스턴스
 
-- class NSMappingModel
+- [`class NSMappingModel`](https://developer.apple.com/documentation/coredata/nsmappingmodel)
 
   엔티티를 원본에서 대상 관리(managed) 객체 모델으로 어떻게 매핑할지 명시하는 모델 인스턴스
 
-- class NSEntityMapping
+- [`class NSEntityMapping`](https://developer.apple.com/documentation/coredata/nsentitymapping)
 
   엔티티를 원본에서 대상 관리(managed) 객체 모델으로 어떻게 매핑할지 명시하는 매핑 인스턴스
 
-- class NSEntityMigrationPolicy
+- [`class NSEntityMigrationPolicy`](https://developer.apple.com/documentation/coredata/nsentitymigrationpolicy)
 
   엔티티 매핑에 대한 마이그레이션 프로세스를 커스텀하는 정책(policy) 인스턴스
 
-- enum NSEntityMappingType
+- [`enum NSEntityMappingType`](https://developer.apple.com/documentation/coredata/nsentitymappingtype)
 
   원본 모델과 대상 모델 사이 엔티티를 매핑하기위한 타입
 
-- class NSPropertyMapping
+- [`class NSPropertyMapping`](https://developer.apple.com/documentation/coredata/nspropertymapping)
 
   원본 엔티티의 프로퍼티를 대상 엔티티의 프로퍼티로 매핑하는 방법을 모델에서 명시하는 매핑 인스턴스
 

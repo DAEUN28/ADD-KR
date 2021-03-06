@@ -7,7 +7,7 @@ description: 사용자의 주의를 끌기 위해 앱에서 알림을 만들고 
 ## Info
 > **Type**: `Article`
 >
-> **최근 수정일**: `2021-01-07`
+> **최근 수정일**: `2021-03-06`
 >
 > [원문 링크](https://developer.apple.com/documentation/usernotifications/scheduling_a_notification_locally_from_your_app)
 
@@ -25,7 +25,7 @@ description: 사용자의 주의를 끌기 위해 앱에서 알림을 만들고 
 
 ### 알림 컨텐츠 생성
 
-UNMutableNotificationContent 객체의 프로퍼티를 알림의 세부 정보로 채우세요. 입력한 필드는 알림 전달 방법을 정의합니다. 예를 들어, 소리를 재생하기 위해, 객체의 sound 프로퍼티에 값을 할당합니다. Listing 1은 띄워질 얼럿의 제목과 본문을 담은 컨텐츠 객체를 보여줍니다. 같은 요청에 여러 인터랙션 타입을 지정할 수 있습니다.
+[UNMutableNotificationContent](https://developer.apple.com/documentation/usernotifications/unmutablenotificationcontent) 객체의 프로퍼티를 알림의 세부 정보로 채우세요. 입력한 필드는 알림 전달 방법을 정의합니다. 예를 들어, 소리를 재생하기 위해, 객체의 [sound](https://developer.apple.com/documentation/usernotifications/unnotificationcontent/1649871-sound) 프로퍼티에 값을 할당합니다. Listing 1은 띄워질 얼럿의 제목과 본문을 담은 컨텐츠 객체를 보여줍니다. 같은 요청에 여러 인터랙션 타입을 지정할 수 있습니다.
 
 **Listing 1** Configuring the notification content
 
@@ -36,9 +36,9 @@ content.body = "Every Tuesday at 2pm"
 
 ### 전달을 위한 조건 지정
 
-UNCalendarNotificationTrigger, UNTimeIntervalNotificationTrigger, 또는 UNLocationNotificationTrigger 객체를 사용해 알림 전달의 조건을 지정하세요. 각 트리거 객체는 다른 파라미터를 요구합니다. 예를 들어 캘린더 기반 트리거는 알림이 전달될 날짜와 시간을 지정하도록 요구합니다.
+[`UNCalendarNotificationTrigger`](https://developer.apple.com/documentation/usernotifications/uncalendarnotificationtrigger), [`UNTimeIntervalNotificationTrigger`](https://developer.apple.com/documentation/usernotifications/untimeintervalnotificationtrigger), 또는 [`UNLocationNotificationTrigger`](https://developer.apple.com/documentation/usernotifications/unlocationnotificationtrigger) 객체를 사용해 알림 전달의 조건을 지정하세요. 각 트리거 객체는 다른 파라미터를 요구합니다. 예를 들어 캘린더 기반 트리거는 알림이 전달될 날짜와 시간을 지정하도록 요구합니다.
 
-Listing 2는 매주 화요일 오후 2시에 알림을 전달하기 위한 설정 방법을 보여줍니다. DateComponents 구조체는 이벤트의 타이밍을 지정합니다. repeats 파라미터를 true로 설정해 트리거를 생성하면 시스템은 알림이 전달된 후에 이벤트를 다시 예약합니다.
+Listing 2는 매주 화요일 오후 2시에 알림을 전달하기 위한 설정 방법을 보여줍니다. [DateComponents](https://developer.apple.com/documentation/foundation/datecomponents) 구조체는 이벤트의 타이밍을 지정합니다. repeats 파라미터를 true로 설정해 트리거를 생성하면 시스템은 알림이 전달된 후에 이벤트를 다시 예약합니다.
 
 **Listing 2** Configuring a recurring date-based trigger
 
@@ -57,7 +57,7 @@ let trigger = UNCalendarNotificationTrigger(
 
 ### 알림 요청 생성 및 등록
 
-컨텐츠와 트리거 조건을 담은 UNNotificationRequest 객체를 생성하고 시스템이 요청을 예약할 수 있도록 add(_:withCompletionHandler:) 메서드를 호출하세요. Listing 3은 Listing 1과 Listing 2의 컨텐츠를 사용해 request 객체를 생성한 예제입니다.
+컨텐츠와 트리거 조건을 담은 UNNotificationRequest 객체를 생성하고 시스템이 요청을 예약할 수 있도록 [add(_:withCompletionHandler:)](https://developer.apple.com/documentation/usernotifications/unusernotificationcenter/1649508-add) 메서드를 호출하세요. Listing 3은 Listing 1과 Listing 2의 컨텐츠를 사용해 request 객체를 생성한 예제입니다.
 
 **Listing 3** Registering the notification request
 
@@ -78,7 +78,7 @@ notificationCenter.add(request) { (error) in
 
 ### 예약된 알림 요청 취소
 
-한번 예약된 알림 요청은 트리거 조건에 부합하거나, 명시적으로 취소하기 전까지 활성화되어 남아있게 됩니다. 일반적으로, 상태가 바뀌었거나 더이상 사용자에게 알림을 전달할 필요가 없을 때 요청을 취소합니다. 예를 들어, 사용자가 리마인더를 완료하면, 리마인더와 관련된 모든 활성화 상태의 요청을 취소합니다. 활성화 상태의 알림 요청을 취소하기 위해 UNUserNotificationCenter의 removePendingNotificationRequests(withIdentifiers:) 메서드를 호출하세요.
+한번 예약된 알림 요청은 트리거 조건에 부합하거나, 명시적으로 취소하기 전까지 활성화되어 남아있게 됩니다. 일반적으로, 상태가 바뀌었거나 더이상 사용자에게 알림을 전달할 필요가 없을 때 요청을 취소합니다. 예를 들어, 사용자가 리마인더를 완료하면, 리마인더와 관련된 모든 활성화 상태의 요청을 취소합니다. 활성화 상태의 알림 요청을 취소하기 위해 UNUserNotificationCenter의 [removePendingNotificationRequests(withIdentifiers:)](https://developer.apple.com/documentation/usernotifications/unusernotificationcenter/1649517-removependingnotificationrequest) 메서드를 호출하세요.
 
 ## Topics
 
@@ -86,7 +86,7 @@ notificationCenter.add(request) { (error) in
 
 ---
 
-- **Handling Notifications and Notification-Related Actions**
+- [Handling Notifications and Notification-Related Actions](https://developer.apple.com/documentation/usernotifications/handling_notifications_and_notification-related_actions)
 
   앱의 커스텀 액션을 처리하는 것을 포함해 시스템의 알림 인터페이스에 대한 사용자 인터랙션에 응답합니다.
 
@@ -96,11 +96,11 @@ notificationCenter.add(request) { (error) in
 
 ---
 
-- class **UNNotificationRequest**
+- [`class UNNotificationRequest`](https://developer.apple.com/documentation/usernotifications/unnotificationrequest)
 
   알림의 컨텐츠와 전달을 위한 트리거 조건을 포함한 로컬 알림을 예약하기 위한 요청
 
-- class **UNNotification**
+- [`class UNNotification`](https://developer.apple.com/documentation/usernotifications/unnotification)
 
   로컬 또는 앱에 전달된 원격 알림을 위한 데이터
 
