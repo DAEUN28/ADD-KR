@@ -13,11 +13,11 @@
     - [RunLoop](Foundation/Processes_and_Threads/RunLoop.md)
 - UIKit
   - [App and Environment](UIKit/App_and_Environment/README.md)
-    - [Managing Your App's Life Cycle](UIKit/App_and_Environment/Managing_Your_App's_Life_Cycle.md)
+    - [Managing Your App's Life Cycle](UIKit/App_and_Environment/Managing_Your_Apps_Life_Cycle.md)
     - [Multitasking on iPad](UIKit/App_and_Environment/Multitasking_on_iPad.md)
     - Scenes
       - Preparing Your UI to Run in the Background
-        - [Extending Your App's Background Execution Time](UIKit/App_and_Environment/Extending_Your_App's_Background_Execution_Time.md)
+        - [Extending Your App's Background Execution Time](UIKit/App_and_Environment/Extending_Your_Apps_Background_Execution_Time.md)
   - Animation and Haptics
     - Property Based Animations
       - [UIViewPropertyAnimator](UIKit/Animation_and_Haptics/UIViewPropertyAnimator.md)
