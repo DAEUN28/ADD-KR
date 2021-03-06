@@ -29,7 +29,7 @@ UIKit은 기기 설정, 인터페이스 설정 및 사용자 선호도의 조합
 
 ---
 
-- [Managing Your App's Life Cycle](Managing-Your-App's-Life-Cycle/README.md)
+- [Managing Your App's Life Cycle](Managing-App-Life-Cycle/README.m)
 
   foreground이나 background에 있을 때 시스템 notification에 응답하고, 기타 중요한 시스템 관련 이벤트를 처리하세요.
 

@@ -13,7 +13,7 @@
     - [RunLoop](App-Frameworks/Foundation/Processes-and-Threads/RunLoop/README.md)
 - UIKit
   - [App and Environment](App-Frameworks/UIKit/App-and-Environment/README.md)
-    - [Managing Your App's Life Cycle](App-Frameworks/UIKit/App-and-Environment/Managing-Your-App's-Life-Cycle/README.md)
+    - [Managing Your App's Life Cycle](App-Frameworks/UIKit/App-and-Environment/Managing-App-Life-Cycle/README.md)
     - [Multitasking on iPad](App-Frameworks/UIKit/App-and-Environment/Multitasking-on-iPad/README.md)
     - Scenes
       - Preparing Your UI to Run in the Background
