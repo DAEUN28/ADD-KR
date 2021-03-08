@@ -8,7 +8,7 @@ description: 뷰의 속성을 변경하여 애니메이션을 생성하세요.
 
 > **Type**: `Collection`
 >
-> **최근 수정일**: `2021-03-07`
+> **최근 수정일**: `2021-03-08`
 >
 > [원문 링크](https://developer.apple.com/documentation/uikit/animation_and_haptics/property-based_animations)
 
@@ -60,7 +60,7 @@ description: 뷰의 속성을 변경하여 애니메이션을 생성하세요.
 
 ### 컨텐츠 애니메이션
 
-- [View Controller Transitions](https://developer.apple.com/documentation/uikit/animation_and_haptics/view_controller_transitions)
+- [View Controller Transitions](View_Controller_Transitionss.md)
 
   뷰컨트롤러에서 다른 뷰컨트롤러로의 커스텀 트랜지션을 정의하세요.
 
