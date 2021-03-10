@@ -87,6 +87,7 @@
   - [Supporting VoiceOver in Your App]()
   
     Learn how to make your iOS app more acessible to ~
+  ---
   
   ### Behaviors
   
@@ -101,14 +102,14 @@
   - [`protocol **UIAccessibilityRenderingContent`]()
   
     Methods to implement on an object that represents ~
-  ```
-
+```
   
 
-  ## 3. Hints and Callouts
-
-  ![Figure3](Resource/readme_figure3.png)
-
+  
+## 3. Hints and Callouts
+  
+![Figure3](Resource/readme_figure3.png)
+  
   ```
   {% hint style="danger" %}
   **Warning**
@@ -117,6 +118,6 @@
   {% endhint %}
   
   hint style: info, success, danger, warning
-  ```
-
+```
+  
   

@@ -35,6 +35,12 @@
 - User Notifications
   - [Scheduling a Notification Locally from Your App](User_Notifications/Scheduling_a_Notification_Locally_from_Your_App.md)
 
+## Media
+
+- AVFAudio
+  - AVAudioSession
+    - [AVAudioSession.CategoryOptions](AVFAudio/AVAudioSession/AVAudioSession.CategoryOptions.md)
+
 ## System
 
 - [Apple Silicon](Apple_Silicon/README.md)

@@ -65,8 +65,6 @@ description: 앱의 백그라운드 런타임을 예약하기에 가장 적합�
 
 ### 필수
 
----
-
 - [`class BGTaskScheduler`](https://developer.apple.com/documentation/backgroundtasks/bgtaskscheduler)
 
   백그라운드에서 앱을 실행하는 작업 요청을 예약하기 위한 클래스

@@ -20,9 +20,9 @@ description: 뷰의 속성을 변경하여 애니메이션을 생성하세요.
 
 ## Topics
 
-### First Steps
-
 ---
+
+### First Steps
 
 - [`class UIViewPropertyAnimator`](UIViewPropertyAnimator.md)
 
@@ -32,9 +32,9 @@ description: 뷰의 속성을 변경하여 애니메이션을 생성하세요.
 
   커스텀 애니메이터 객체를 구현하기위한 인터페이스
 
-### 타이밍 곡선
-
 ---
+
+### 타이밍 곡선
 
 - [`protocol UITimingCurveProvider`](https://developer.apple.com/documentation/uikit/uitimingcurveprovider)
 
@@ -48,15 +48,17 @@ description: 뷰의 속성을 변경하여 애니메이션을 생성하세요.
 
   ubic Bézier 곡선 형태 애니메이션에 대한 타이밍 정보
 
-### 진행 중인 애니메이션
-
 ---
+
+### 진행 중인 애니메이션
 
 - [`protocol UIViewImplicitlyAnimating`](https://developer.apple.com/documentation/uikit/uiviewimplicitlyanimating)
 
   애니메이션이 실행되는 동안 수정하기 위한 인터페이스
 
 ## See Also
+
+---
 
 ### 컨텐츠 애니메이션
 

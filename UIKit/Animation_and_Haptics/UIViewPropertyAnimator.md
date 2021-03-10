@@ -62,9 +62,9 @@ UIViewPropertyAnimator 객체를 사용하면 뷰 변경 사항을 애니메이�
 
 ## Topics
 
-### 프로퍼티 애니메이터 초기화
-
 ---
+
+### 프로퍼티 애니메이터 초기화
 
 - [`init(duration: TimeInterval, curve: UIView.AnimationCurve, animations: (() -> Void)?)`](https://developer.apple.com/documentation/uikit/uiviewpropertyanimator/1648366-init)
 
@@ -86,9 +86,9 @@ UIViewPropertyAnimator 객체를 사용하면 뷰 변경 사항을 애니메이�
 
   애니메이션 실행을 즉시 시작하는 애니메이터 객체를 생성하고 반환합니다.
 
-### 애니메이션 수정
-
 ---
+
+### 애니메이션 수정
 
 - [`func addAnimations(() -> Void)`](https://developer.apple.com/documentation/uikit/uiviewpropertyanimator/1648374-addanimations)
 
@@ -106,9 +106,9 @@ UIViewPropertyAnimator 객체를 사용하면 뷰 변경 사항을 애니메이�
 
   일시정지된 애니메이션의 타이밍과 지속기간을 조정합니다.
 
-### 애니메이션 파라미터에 접근
-
 ---
+
+### 애니메이션 파라미터에 접근
 
 - [`var duration: TimeInterval`](https://developer.apple.com/documentation/uikit/uiviewpropertyanimator/1648375-duration)
 
@@ -142,26 +142,28 @@ UIViewPropertyAnimator 객체를 사용하면 뷰 변경 사항을 애니메이�
 
   완료된 애니메이션이 활성 상태로 유지되는지 나타내는 불린 값
 
+
+
 ## Relationships
+
+---
 
 ### Inherits From
 
----
-
 - [NSObject](https://developer.apple.com/documentation/objectivec/nsobject)
 
-### Conforms To
-
 ---
+
+### Conforms To
 
 - [NSCopying](https://developer.apple.com/documentation/foundation/nscopying)
 - [UIViewImplicitlyAnimating](https://developer.apple.com/documentation/uikit/uiviewimplicitlyanimating)
 
 ## See Also
 
-### First Steps
-
 ---
+
+### First Steps
 
 - [`protocol UIViewAnimating`](https://developer.apple.com/documentation/uikit/uiviewanimating)
 

@@ -27,9 +27,9 @@ iPadOS 13 이상에서는 [UIApplicationSupportsMultipleScenes](https://develope
 
 ## Topics
 
-### Adaptivity
-
 ---
+
+### Adaptivity
 
 - [`class UITraitCollection`](https://developer.apple.com/documentation/uikit/uitraitcollection)
 
@@ -47,9 +47,9 @@ iPadOS 13 이상에서는 [UIApplicationSupportsMultipleScenes](https://develope
 
   뷰 컨트롤러의 콘텐츠를 크기 및 trait 변경에 맞게 조정하는 메서드 집합 
 
-### Scene 관리
-
 ---
+
+### Scene 관리
 
 - [Scenes](https://developer.apple.com/documentation/uikit/app_and_environment/scenes)
 
@@ -58,3 +58,4 @@ iPadOS 13 이상에서는 [UIApplicationSupportsMultipleScenes](https://develope
 - [Supporting Multiple Windows on iPad](https://developer.apple.com/documentation/uikit/uiscenedelegate/supporting_multiple_windows_on_ipad)
 
   인터페이스의 side-by-side 인스턴스를 지원하고 드래그 앤 드롭으로 간단하게 새 window를 생성합니다.
+

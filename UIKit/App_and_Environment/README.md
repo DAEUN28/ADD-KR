@@ -25,9 +25,9 @@ UIKit은 기기 설정, 인터페이스 설정 및 사용자 선호도의 조합
 
 ## Topics
 
-### 생명 주기
-
 ---
+
+### 생명 주기
 
 - [Managing Your App's Life Cycle](Managing_App_Life_Cycle.md)
 
@@ -49,17 +49,17 @@ UIKit은 기기 설정, 인터페이스 설정 및 사용자 선호도의 조합
 
   여러 앱 UI 인스턴스를 동시에 관리하고, 리소스를 적절한 인스턴스로 분배하세요.
 
-### 멀티태스킹
-
 ---
+
+### 멀티태스킹
 
 - [Multitasking on iPad](Multitasking_on_iPad.md)
 
   멀티태스킹 API를 구현해 앱을 iPadOS와 원활하게 통합하세요.
 
-### 기기 환경
-
 ---
+
+### 기기 환경
 
 - [`class UIDevice`](https://developer.apple.com/documentation/uikit/uidevice)
 
@@ -69,9 +69,9 @@ UIKit은 기기 설정, 인터페이스 설정 및 사용자 선호도의 조합
 
   상태바의 구성을 설명하는 객체
 
-### Adaptivity
-
 ---
+
+### Adaptivity
 
 - [Responding to Changing Display Modes on Apple TV](https://developer.apple.com/documentation/uikit/app_and_environment/responding_to_changing_display_modes_on_apple_tv)
 
@@ -93,9 +93,9 @@ UIKit은 기기 설정, 인터페이스 설정 및 사용자 선호도의 조합
 
   뷰 컨트롤러의 콘텐츠를 크기 및 trait 변경에 맞게 조정하는 메서드 집합 
 
-### Guided Acess
-
 ---
+
+### Guided Acess
 
 - [`protocol UIGuidedAccessRestrictionDelegate`](https://developer.apple.com/documentation/uikit/uiguidedaccessrestrictiondelegate)
 
@@ -105,9 +105,9 @@ UIKit은 기기 설정, 인터페이스 설정 및 사용자 선호도의 조합
 
   지정된 guided access 제한에 대한에 제한 상태를 반환합니다.
 
-### 아키텍처
-
 ---
+
+### 아키텍처
 
 - [Updating Your App from 32-Bit to 64-Bit Architecture](https://developer.apple.com/documentation/uikit/app_and_environment/updating_your_app_from_32-bit_to_64-bit_architecture)
 
@@ -119,9 +119,9 @@ UIKit은 기기 설정, 인터페이스 설정 및 사용자 선호도의 조합
 
 ## See Also
 
-### 앱 구조
-
 ---
+
+### 앱 구조
 
 - https://developer.apple.com/documentation/uikit/documents_data_and_pasteboard
 

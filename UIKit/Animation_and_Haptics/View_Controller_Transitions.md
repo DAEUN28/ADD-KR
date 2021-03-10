@@ -20,17 +20,17 @@ description: 뷰컨트롤러에서 다른 뷰컨트롤러로의 커스텀 트랜
 
 ## Topics
 
-### 애니메이션 델리게이트
-
 ---
+
+### 애니메이션 델리게이트
 
 - [`protocol UIViewControllerTransitioningDelegate`](https://developer.apple.com/documentation/uikit/uiviewcontrollertransitioningdelegate)
 
   뷰컨트롤러 간의 고정길이(fixed-length) 또는 인터랙티브 트랜지션을 관리하는데 사용되는 객체를 제공하는 메서드 집합
 
-### Non-인터랙티브 트랜지션
-
 ---
+
+### Non-인터랙티브 트랜지션
 
 - [`protocol UIViewControllerAnimatedTransitioning`](https://developer.apple.com/documentation/uikit/uiviewcontrolleranimatedtransitioning)
 
@@ -40,9 +40,9 @@ description: 뷰컨트롤러에서 다른 뷰컨트롤러로의 커스텀 트랜
 
   뷰컨트롤러 간의 트랜지션 애니메이션에 대한 컨텍스트(contextual) 정보를 제공하는 메서드 집합
 
-### 인터랙티브 트랜지션
-
 ---
+
+### 인터랙티브 트랜지션
 
 - [`class UIPercentDrivenInteractiveTransition`](https://developer.apple.com/documentation/uikit/uipercentdriveninteractivetransition)
 
@@ -56,9 +56,9 @@ description: 뷰컨트롤러에서 다른 뷰컨트롤러로의 커스텀 트랜
 
   애니메이션이 실행되는 동안 수정하기 위한 인터페이스
 
-### 트랜지션 코디네이터
-
 ---
+
+### 트랜지션 코디네이터
 
 - [`protocol UIViewControllerTransitionCoordinator`](https://developer.apple.com/documentation/uikit/uiviewcontrollertransitioncoordinator)
 
@@ -72,9 +72,9 @@ description: 뷰컨트롤러에서 다른 뷰컨트롤러로의 커스텀 트랜
 
 ## See Also
 
-### 컨텐츠 애니메이션
-
 ---
+
+### 컨텐츠 애니메이션
 
 - [Property-Based Animations](Property-Based_Animations.md)
 
