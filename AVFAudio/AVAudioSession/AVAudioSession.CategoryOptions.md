@@ -73,7 +73,7 @@ struct CategoryOptions
 
 ---
 
-### 이니셜라이저
+### Initializers
 
 - [`init(rawValue: UInt)`](https://developer.apple.com/documentation/avfaudio/avaudiosession/categoryoptions/1624971-init)
 
@@ -88,6 +88,8 @@ struct CategoryOptions
 - [`OptionSet`](https://developer.apple.com/documentation/swift/optionset)
 
 ## See Also
+
+---
 
 ### 오디오 세션 구성하기
 

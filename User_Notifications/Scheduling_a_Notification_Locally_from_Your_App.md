@@ -82,9 +82,9 @@ notificationCenter.add(request) { (error) in
 
 ## Topics
 
-### 관련 토픽
-
 ---
+
+### 관련 토픽
 
 - [Handling Notifications and Notification-Related Actions](https://developer.apple.com/documentation/usernotifications/handling_notifications_and_notification-related_actions)
 
@@ -92,9 +92,9 @@ notificationCenter.add(request) { (error) in
 
 ## See Also
 
-### 알림 요청
-
 ---
+
+### 알림 요청
 
 - [`class UNNotificationRequest`](https://developer.apple.com/documentation/usernotifications/unnotificationrequest)
 

@@ -19,8 +19,6 @@ description: 데이터 모델의 변경 사항이 경량 마이그레이션의 �
 
 ### 엔티티 매핑
 
----
-
 - [`class NSMigrationManager`](https://developer.apple.com/documentation/coredata/nsmigrationmanager)
 
   지정된 매핑 모델을 사용해 한 영구 저장소에서 다른 저장소로 데이터를 마이그레이션하는 마이그레이션 매니저 인스턴스
@@ -45,7 +43,11 @@ description: 데이터 모델의 변경 사항이 경량 마이그레이션의 �
 
   원본 엔티티의 프로퍼티를 대상 엔티티의 프로퍼티로 매핑하는 방법을 모델에서 명시하는 매핑 인스턴스
 
+---
+
 ## See Also
+
+---
 
 ### 데이터 마이그레이션
 

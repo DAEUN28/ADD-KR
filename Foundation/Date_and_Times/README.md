@@ -17,9 +17,9 @@ description: 날짜와 시간을 비교하고, 달력 및 시간대 계산을 �
 
 ## Topics
 
-### 날짜 표현
-
 ---
+
+### 날짜 표현
 
 - [`struct Date`](Date.md)
 
@@ -33,9 +33,9 @@ description: 날짜와 시간을 비교하고, 달력 및 시간대 계산을 �
 
   초 단위 숫자
 
-### 달력에 관한 계산
-
 ---
+
+### 달력에 관한 계산
 
 - [`struct DateComponents`](https://developer.apple.com/documentation/foundation/datecomponents)
 
@@ -49,9 +49,9 @@ description: 날짜와 시간을 비교하고, 달력 및 시간대 계산을 �
 
   특정 지정학적 지역과 관련된 표준 시간 규약에 대한 정보
 
-### 날짜 형식
-
 ---
+
+### 날짜 형식
 
 - [`class DateFormatter`](https://developer.apple.com/documentation/foundation/dateformatter)
 
@@ -69,13 +69,15 @@ description: 날짜와 시간을 비교하고, 달력 및 시간대 계산을 �
 
   날짜와 해당 ISO 8601 문자열 표현을 변환하는 formatter
 
-### 국제화
-
 ---
+
+### 국제화
 
 - [`struct Locale`](https://developer.apple.com/documentation/foundation/locale)
 
   표시를 위한 데이터 형식화에 사용되는 언어, 문화 및 기술 규약에 대한 정보
+
+---
 
 ## See Also
 

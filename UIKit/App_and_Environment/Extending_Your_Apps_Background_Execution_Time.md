@@ -25,9 +25,11 @@ description: 앱이 백그라운드에 진입할 때 중요한 작업이 완료�
 
 [beginBackgroundTask(withName:expirationHandler:)](https://developer.apple.com/documentation/uikit/uiapplication/1623051-beginbackgroundtask) 메서드를 사용하면 앱의 실행 시간을 연장할 수 있습니다. 이 메서드를 호출하면 중요한 작업을 수행할 수 있는 추가 시간이 제공됩니다.([backgroundTimeRemaining](https://developer.apple.com/documentation/uikit/uiapplication/1623029-backgroundtimeremaining) 프로퍼티를 사용하면 백그라운드에서 실행될 수 있는 최대 시간을 확인할 수 있습니다.) 작업이 끝나면 시스템이 작업을 끝났음을 확인할 수 있도록 즉시 [endBackgroundTask(_:)](https://developer.apple.com/documentation/uikit/uiapplication/1622970-endbackgroundtask) 메서드를 호출하세요. 만약 태스크를 적절한 시간에 끝내지 않는다면, 시스템은 앱을 종료시킵니다.
 
-> **Note**
->
-> 앱이 백그라운드에 진입해 [beginBackgroundTask(withName:expirationHandler:)](https://developer.apple.com/documentation/uikit/uiapplication/1623051-beginbackgroundtask) 메서드를 호출할 때까지 기다리지 마세요. 긴 실행시간이 걸리는 작업이 실행되기 전에 메서드를 호출하세요.
+{% hint style="info" %}
+**Note**
+
+앱이 백그라운드에 진입해 [beginBackgroundTask(withName:expirationHandler:)](https://developer.apple.com/documentation/uikit/uiapplication/1623051-beginbackgroundtask) 메서드를 호출할 때까지 기다리지 마세요. 긴 실행시간이 걸리는 작업이 실행되기 전에 메서드를 호출하세요.
+{% endhint %}
 
 Listing 1은 서버에 데이터를 저장하는데 5초 이상 소요될 수 있는 백그라운드 작업을 설정하는 예제입니다. beginBackgroundTask(withName:expirationHandler:) 메서드는 Identifier를 반환합니다. 반환된 Identifier는 [endBackgroundTask(_:)](https://developer.apple.com/documentation/uikit/uiapplication/1622970-endbackgroundtask) 메서드에 전달하기 위해 반드시 저장해야 합니다.
 
@@ -61,9 +63,9 @@ func sendDataToServer( data : NSData ) {
 
 ## See Also
 
-### 백그라운드 실행
-
 ---
+
+### 백그라운드 실행
 
 - [Updating Your App with Background App Refresh](https://developer.apple.com/documentation/uikit/app_and_environment/scenes/preparing_your_ui_to_run_in_the_background/updating_your_app_with_background_app_refresh)
 
