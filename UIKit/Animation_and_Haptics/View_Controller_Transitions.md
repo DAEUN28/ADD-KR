@@ -32,7 +32,7 @@ description: 뷰컨트롤러에서 다른 뷰컨트롤러로의 커스텀 트랜
 
 ### Non-인터랙티브 트랜지션
 
-- [`protocol UIViewControllerAnimatedTransitioning`](https://developer.apple.com/documentation/uikit/uiviewcontrolleranimatedtransitioning)
+- [`protocol UIViewControllerAnimatedTransitioning`](UIViewControllerAnimatedTransitioning.md)
 
   커스텀 뷰컨트롤러 트랜지션에 대한 애니메이션을 구현하기 위한 메서드 집합
 
