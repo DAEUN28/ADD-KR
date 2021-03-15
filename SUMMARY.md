@@ -22,6 +22,7 @@
     - [Property Based Animations](UIKit/Animation_and_Haptics/Property-Based_Animations.md)
       - [UIViewPropertyAnimator](UIKit/Animation_and_Haptics/UIViewPropertyAnimator.md)
     - [View Controller Transitions](UIKit/Animation_and_Haptics/View_Controller_Transitions.md)
+      - [UIViewControllerAnimatedTransitioning](UIKit/Animation_and_Haptics/UIViewControllerAnimatedTransitioning.md)
 
 ## App Services
 
