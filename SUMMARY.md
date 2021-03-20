@@ -18,6 +18,9 @@
     - Scenes
       - Preparing Your UI to Run in the Background
         - [Extending Your App's Background Execution Time](UIKit/App_and_Environment/Extending_Your_Apps_Background_Execution_Time.md)
+  - Views and Controls
+    - UIView
+      - [UIView.AnimationOptions](UIKit/Views_and_Controls/UIView.AnimationOptions.md)
   - Animation and Haptics
     - [Property Based Animations](UIKit/Animation_and_Haptics/Property-Based_Animations.md)
       - [UIViewPropertyAnimator](UIKit/Animation_and_Haptics/UIViewPropertyAnimator.md)
