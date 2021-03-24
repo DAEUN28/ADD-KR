@@ -41,6 +41,9 @@
 
 ## Media
 
+- AVFoundation
+  - Media Playback and Selections
+    - [Configuring the Audio Playback of iOS and tvOS Apps](AVFoundation/Media_Playback_and_Selections/Configuring_the_Audio_Playback_of_iOS_and_tvOS_Apps.md)
 - AVFAudio
   - AVAudioSession
     - [AVAudioSession.CategoryOptions](AVFAudio/AVAudioSession/AVAudioSession.CategoryOptions.md)
