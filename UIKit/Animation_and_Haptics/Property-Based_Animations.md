@@ -46,7 +46,7 @@ description: 뷰의 속성을 변경하여 애니메이션을 생성하세요.
 
 - [`class UICubicTimingParameters`](https://developer.apple.com/documentation/uikit/uicubictimingparameters)
 
-  ubic Bézier 곡선 형태 애니메이션에 대한 타이밍 정보
+  큐빅 베지어 곡선 형태 애니메이션에 대한 타이밍 정보
 
 ---
 
