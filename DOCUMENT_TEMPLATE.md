@@ -74,6 +74,8 @@
   ```
   ## Topics
   
+  ---
+  
   ### Essentials
   
   - [UIAccessiblity]()
@@ -102,6 +104,7 @@
   - [`protocol **UIAccessibilityRenderingContent`]()
   
     Methods to implement on an object that represents ~
+  ```
 ```
   
 
@@ -110,14 +113,15 @@
   
 ![Figure3](Resource/readme_figure3.png)
   
-  ```
+```
   {% hint style="danger" %}
   **Warning**
-  
+
   The RunLoop class is generally not considered to be thread-safe and its methods should only be ~
   {% endhint %}
-  
+
   hint style: info, success, danger, warning
 ```
   
   
+```
