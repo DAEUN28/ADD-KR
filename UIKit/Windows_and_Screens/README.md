@@ -67,3 +67,57 @@ description: 뷰 계층 구조 및 기타 콘텐츠에 대한 컨테이너를 �
 
 ### Alerts
 
+- [Getting the User's Attention with Alerts and Action Sheets](https://developer.apple.com/documentation/uikit/windows_and_screens/getting_the_user_s_attention_with_alerts_and_action_sheets)
+
+  사용자에게 중요한 정보를 제공하거나 중요한 선택에 대한 프롬프트를 제공하세요.
+
+- [`class UIAlertController`](https://developer.apple.com/documentation/uikit/uialertcontroller)
+
+  사용자에게 얼럿 메시지를 표시하는 객체
+
+- [`class UIAlertAction`](https://developer.apple.com/documentation/uikit/uialertaction)
+
+  사용자가 얼럿의 버튼을 누를 때 수행할 수 있는 액션
+
+---
+
+### Screens
+
+- [Displaying Content on a Connected Screen](https://developer.apple.com/documentation/uikit/windows_and_screens/displaying_content_on_a_connected_screen)
+
+  앱의 추가 콘텐츠로 연결된 디스플레이를 채우세요.
+
+- [`class UIScreen`](https://developer.apple.com/documentation/uikit/uiscreen)
+
+  하드웨어 기반 디스플레이와 관련된 프로퍼티를 정의하는 객체
+
+- [`class UIScreenMode`](https://developer.apple.com/documentation/uikit/uiscreenmode)
+
+  스크린 객체에 적용될 수 있는 속성 집합
+
+## See Also
+
+---
+
+### User Interface
+
+- [Views and Controls](https://developer.apple.com/documentation/uikit/views_and_controls)
+
+  콘텐츠를 화면에 표시하고 해당 콘텐츠에 허용된 인터랙션을 정의합니다.
+
+- [View Controllers](https://developer.apple.com/documentation/uikit/view_controllers)
+
+  뷰컨트롤러를 사용해 인터페이스를 관리하고 앱 콘텐츠 탐색을 용이하게 합니다.
+
+- [View Layout](https://developer.apple.com/documentation/uikit/view_layout)
+
+  인터페이스의 뷰를 자동으로 레이아웃하기 위해 스택뷰를 사용하세요. 뷰의 정확한 배치가 필요한 경우 오토레이아웃을 사용하세요.
+
+- [Appearance Customization](https://developer.apple.com/documentation/uikit/appearance_customization)
+
+  앱에 다크모드 지원을 추가하고, bars의 생김새(appearance)를 커스텀하며, appearance proxies를 사용해 UI를 수정하세요.
+
+- [Animation and Haptics](https://developer.apple.com/documentation/uikit/animation_and_haptics)
+
+  뷰 기반 애니메이션 및 햅틱을 사용해 사용자에게 피드백을 제공하세요.
+
