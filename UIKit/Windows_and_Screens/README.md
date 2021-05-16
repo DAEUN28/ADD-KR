@@ -1,4 +1,6 @@
+---
 description: 뷰 계층 구조 및 기타 콘텐츠에 대한 컨테이너를 제공합니다.
+---
 
 # Windows and Screens
 
