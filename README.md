@@ -1,12 +1,12 @@
 # ADD-KR
 
+**DocC의 등장으로 DocC 기반으로 마이그레이션을 위 해당 프로젝트는 아카이브될 예정입니다. 새로운 [레포지토리](https://github.com/ADD-KR/ADD-KR)로 마이그레이션 중입니다...**
+
 🍎 Apple Developer Document 한국어 번역 프로젝트입니다. [Apple Developer 홈페이지](https://developer.apple.com)를 기반으로 번역합니다. [Github](https://github.com/DAEUN28/ADD-KR)에서는 문서 작업만 진행하고 [Gitbook](https://acone1128.gitbook.io/add/)에서 문서를 편리하게 확인할 수 있습니다. 
 
 > 질문, 요청사항이 있다면 언제든지 acone1128@gmail.com으로 연락해주세요!
 >
 > 영어 실력이 부족합니다😂 오역, 오타 지적 언제나 환영합니다 :)
-
-**DocC의 등장으로 DocC 기반으로 마이그레이션을 위 해당 프로젝트는 아카이브될 예정입니다. 새로운 [레포지토리](https://github.com/ADD-KR/ADD-KR)로 마이그레이션 중입니다...**
 
 # 규칙
 
